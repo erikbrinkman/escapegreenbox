@@ -1,0 +1,28 @@
+{
+  "name": "escapegreenbox",
+  "version": "0.0.1",
+  "description": "Spotify Playlist Downloader",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "author": "Erik Brinkman <erik.brinkman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^1.3.0"
+  },
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikbrinkman/escapegreenbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erikbrinkman/escapegreenbox/issues"
+  },
+  "homepage": "https://github.com/erikbrinkman/escapegreenbox#readme"
+}
