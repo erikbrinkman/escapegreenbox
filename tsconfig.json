@@ -12,6 +12,8 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "**/*.ts"
+    "script.ts",
+    "global.d.ts",
+    "authenticate/script.ts"
   ]
 }
